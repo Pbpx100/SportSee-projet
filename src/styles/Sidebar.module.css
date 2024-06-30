@@ -1,0 +1,26 @@
+.sidebar {
+    z-index: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #020203;
+    transform: translateY(-90px);
+
+}
+
+.copyright {
+    position: absolute;
+    bottom: 8rem;
+    width: max-content;
+    margin: 0;
+    transform: rotate(-90deg);
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 0.85rem;
+    font-weight: 500;
+}
