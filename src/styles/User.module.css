@@ -1,0 +1,25 @@
+.content {
+    max-width: 75%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+@media (max-width: 1430px) {
+    .content {
+        margin-left: 1rem;
+    }
+}
+
+.keyDataIcons {
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10%;
+
+}
+
+.charts {
+    display: flex;
+    justify-content: flex-start;
+}
