@@ -1,0 +1,21 @@
+.NameInfo {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media (max-width: 1280px) {
+    .NameInfo {
+        margin-left: 2rem;
+    }
+}
+
+.NameInfo h1 {
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.NameInfo span {
+    color: #ff0000;
+}
