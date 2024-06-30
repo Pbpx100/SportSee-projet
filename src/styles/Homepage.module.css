@@ -1,0 +1,15 @@
+.main {
+    max-width: 1240px;
+    margin-left: 15rem;
+}
+
+.main a {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: red;
+}
+
+.title {
+    margin: 4rem 0rem;
+}
