@@ -1,6 +1,7 @@
 # React + Vite
+Source code for Project 12 - Develop an analytics dashboard with React from the OpenClassrooms.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this project I used the free library Rechart and I used an API created with Nodejs to obtain user data.
 
 Currently, two official plugins are available:
 
