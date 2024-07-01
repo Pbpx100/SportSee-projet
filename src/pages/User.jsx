@@ -25,10 +25,12 @@ export default function User() {
         void (async () => { // Syntax for auto executing function, no need to call it after
 
             const response = await getData("USER_MAIN_DATA", id); // using an async function, waiting for get data to execute before doing the rest
-            //console.log(response)
-            // console.log(response.status)
-            if (response === 'AxiosError') {
+            if (response.code === "ERR_BAD_REQUEST") {
                 navigate('/Error');
+            }
+            //Create an error 500 page if the err_network does not work
+            if (response.code === "ERR_NETWORK") {
+                navigate('/Error500');
             }
             if (!response) return console.log("error") // Return error if no response
             setData(response.data);
