@@ -60,7 +60,7 @@ export const getData = async (type, id) => {
                         return response.data;
                     })
                     .catch(function (error) {
-                        return error.name;
+                        return error;
                     })
             }
             break;
