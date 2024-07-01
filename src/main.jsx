@@ -11,8 +11,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path='/' element={<Homepage />} />
+      <Route path='/' element={<Homepage />} />
         <Route path='/user/:id' element={<User />} />
+        <Route path="/error500" element={<Error500 />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
